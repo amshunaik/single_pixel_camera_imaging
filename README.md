@@ -11,3 +11,8 @@ Here’s what the variables represent:
   
 The measurement matrix ( M ) is typically a rectangular ( k times n ) matrix, where ( k ) is less than ( n ) for a compressive measurement. This means that the number of measurements ( k ) is less than the number of pixels ( n ), which is the basis of compressed sensing.
 The reconstruction process in compressive sensing is an optimization problem that seeks to find the sparsest solution that is consistent with the measurements. This often involves solving an underdetermined system with regularization terms that promote sparsity (e.g., L1 norm minimization).
+
+### Working with code :
+Here we worked using different machine learning algorithms to get a sharpened , clear image using neural network. The final output which we got using Dcnet is attached below with SN ratio (signal-noise ratio) 13.77
+
+![image](https://github.com/amshunaik/single_pixel_camera_imaging/assets/103670494/4ef8aef9-5004-4c8a-bc79-2ed8195fc1f1)
